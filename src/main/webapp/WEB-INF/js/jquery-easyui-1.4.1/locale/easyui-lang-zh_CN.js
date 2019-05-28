@@ -25,7 +25,7 @@ $.fn.datagrid.defaults.operators.greaterorequal.text = "大于等于";
 }
 
 if ($.messager){
-	$.messager.defaults.ok = '确定';
+	// $.messager.defaults.ok = '确定';
 	$.messager.defaults.cancel = '取消';
 }
 $.map(['validatebox','textbox','filebox','searchbox',

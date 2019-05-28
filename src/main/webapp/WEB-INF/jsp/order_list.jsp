@@ -19,7 +19,7 @@
 			<th data-options="field:'orderDate',width:130,align:'center',formatter:TAOTAO.formatDateTime">订购日期</th>
 			<th data-options="field:'requestDate',width:130,align:'center',formatter:TAOTAO.formatDateTime">要求日期</th>
 			<th data-options="field:'note',width:100,align:'center', formatter:formatOrderNote">订单要求</th>
-			<%--<th data-options="field:'image',width:100,align:'center', formatter:formatImg">相关图片</th>--%>
+			<th data-options="field:'image',width:100,align:'center', formatter:formatImg">相关图片</th>
 			<th data-options="field:'file',width:180,align:'center', formatter:formatFile">订单附件</th>
         </tr>
     </thead>
@@ -198,7 +198,7 @@ function doSearch_order(value,name){ //用户输入用户名,点击搜素,触发
 				{field : 'requestDate', width : 130, title : '要求日期', align:'center',
 					formatter:TAOTAO.formatDateTime},
 				{field : 'note', width : 100, title : '订单要求', align:'center', formatter:formatOrderNote},
-				// {field : 'image', width : 100, title : '相关图片', align:'center', formatter:formatImg},
+				{field : 'image', width : 100, title : '相关图片', align:'center', formatter:formatImg},
 				{field : 'file',  width : 100, title : '订单附件', align:'center', formatter:formatFile}
 	        ] ],  
 	    });
@@ -221,7 +221,7 @@ function doSearch_order(value,name){ //用户输入用户名,点击搜素,触发
 	             	{field : 'requestDate', width : 130, title : '要求日期', align:'center',
 						formatter:TAOTAO.formatDateTime},
 	             	{field : 'note', width : 100, title : '订单要求', align:'center', formatter:formatOrderNote}, 
-	             	// {field : 'image', width : 100, title : '相关图片', align:'center', formatter:formatImg},
+	             	{field : 'image', width : 100, title : '相关图片', align:'center', formatter:formatImg},
 	             	{field : 'file',  width : 100, title : '订单附件', align:'center', formatter:formatFile}
 	        ] ],  
 	    });

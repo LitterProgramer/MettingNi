@@ -2,11 +2,16 @@
 @import url("reset.css");
 /*主体部分*/
 .main{
-	background:url("../../image/login/header_bg.png") top repeat-x;
+	/*background:url("../../image/login/header_bg.png") top repeat-x;*/
 	min-width:1000px;
 	overflow:hidden;
 	width:100%;
 	height:auto
+}
+body{
+	font-family: "华文细黑";
+	background:url("../../image/login/dd.jpg") no-repeat;
+	background-size: 100%;
 }
 .header{
 	background:url("../../image/login/logo_ico.png") no-repeat top left;

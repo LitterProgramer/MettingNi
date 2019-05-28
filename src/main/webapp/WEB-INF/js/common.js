@@ -24,7 +24,7 @@ $.ajaxSetup({
 	complete:function(XMLHttpRequest,sessionStatus){
 		var sessionstatus = XMLHttpRequest.getResponseHeader("session-status");
 		if(sessionstatus=="timeout"){
-		     $.messager.alert('提示信息', "登录超时！请重新登录！", 'info',function(){
+		     $.messager.alert('', "", '',function(){
 		         window.location.href = 'login';
 		     });
 		} 

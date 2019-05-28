@@ -22,7 +22,7 @@
 </style>
 </head>
 
-<body>
+<body >
 	<div class="main">
 		<div class="header hide"> 企业ERP生产管理系统  </div>
 		<div class="content">
